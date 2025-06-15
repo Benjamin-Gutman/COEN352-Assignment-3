@@ -23,7 +23,7 @@ public class Question6{
 		System.out.println(test.contains("R"));
 		System.out.println(test.contains("B"));
 
-		test.delete("G");
+		test.delete("A");
 		test.printList();
 		
 		System.out.println(test.isEmpty());
