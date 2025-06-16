@@ -2,6 +2,9 @@ package Question5;
 
 import java.util.*;
 
+//Creates a symbol map which relates grades to gpa. This asks the user for a number of grades then calculates the average gpa
+// based on the symbol maps linking of values.
+
 public class Question5{
 	static class SymbolTable{
 		String[] key;

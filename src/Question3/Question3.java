@@ -1,5 +1,11 @@
 package Question3;
 
+// This code creates a heap that can find the min and max as quickly and reliably as each other.
+// This code implements a data type which has two heaps for the same data value. the heaps are of a custom
+//data type which stores the objects value and its position in both arrays. This allows for the values location
+//to be easily found and updated in both arrays such as the min value in the max array while respecting the
+//time complexity restrictions.
+
 public class Question3{
 	public static void main(String[] args) {
 		MinMaxQueue test = new MinMaxQueue();

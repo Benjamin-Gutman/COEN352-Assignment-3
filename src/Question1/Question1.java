@@ -1,5 +1,8 @@
 package Question1;
 
+// This code uses the 3 way partition equation to show how the first step of the
+//3 way quick sort is done, each line is printed to show the trace.
+
 public class Question1{
 	
 	public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package Question2;
 
+// This code uses the Bently-McIntyre version of the 3 way partition for quick sort to put the values
+// from less, equal and more than the key in their respective positions. In this case the key is 5
 public class Question2{
 	
 	public static void main(String[] args) {

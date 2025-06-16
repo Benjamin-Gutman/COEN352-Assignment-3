@@ -3,6 +3,10 @@ package Question4;
 import java.io.*;
 import java.util.*;
 
+//Uses file input operations to read a text file and gather the data from it. A custom class is implemented to
+//store these values. The code checks how many data values there are to create the appropriate array size.
+//This code then sorts the entries based on their secondary data.
+
 public class Question4{
 	public static void sort(DailyInfo[] arr) {
 		for (int i = 1; i < arr.length; i++) {

@@ -1,5 +1,6 @@
 package Question6;
 
+//Implements the SymbolTable API for a linked list including all the standard functions
 
 public class Question6{
 	
