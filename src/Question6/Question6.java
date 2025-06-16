@@ -29,6 +29,7 @@ public class Question6{
 		
 		System.out.println(test.isEmpty());
 		System.out.println(test.size());
+		test.keys();
 		
 	}
 	
@@ -145,6 +146,14 @@ class OrderedSequentialSearchST<Key extends Comparable<Key>, Value>{
 			temp = temp.next;
 		}
 		
+	}
+	
+	public void keys() {
+		Node temp = Head;
+		while (temp != null) {
+			System.out.println(temp.key);
+			temp = temp.next;
+		}
 	}
 	
 }
